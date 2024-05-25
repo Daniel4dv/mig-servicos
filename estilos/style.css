@@ -1,0 +1,302 @@
+/*paleta de cores
+#2E77AA
+#019541
+#003459
+*/
+/* CABEÇALHO */
+
+
+@charset "utf-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+html{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    position:relative;
+    top:-150px
+}
+body{
+    margin-top: 150px;
+    height: 100vh;
+}
+
+
+header{
+    background-color: rgb(255, 255, 255);
+}
+
+header h1{
+    padding: 10px;
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+
+span#burguer{
+    display: block;
+    text-align: center;
+   background-color:  #003459;
+   padding: 10px;
+}
+
+#burguer:hover{
+    cursor:pointer;
+    background-color:  #024676;
+}
+
+
+
+menu{
+    display: none;
+}
+menu ul{
+    list-style-type: none;
+    padding-left: 0px;
+    margin-bottom: 0px;
+}
+menu a {
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    display: block;
+    background-color: #019541;
+    box-shadow: 0px -5px 5px rgba(0, 0, 0, 0.267);
+   
+    color: white;
+    border-top: 1px solid black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+menu a:hover{
+    background-color: #01b44f;
+}
+
+
+/* FIM CABEÇALHO */
+
+
+
+/* CARROSSEL */
+
+
+
+
+
+.carousel-item img {
+    width: 100%;
+    vertical-align: middle;
+}
+
+
+
+
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+
+
+
+
+h1{
+    color: green;
+}
+
+/* CARROSSEL */
+
+
+
+#s1{
+    height: 600px;
+    display: block;
+    background-color:#ffffff ;
+}
+
+
+#s1 img{
+    width: 300px;
+    display: none;
+}
+
+#s1 div.col-4{
+    display: none;
+}
+
+#txts1{
+    background-color: #01954129;
+    border-radius: 20px;
+    margin: auto;
+    padding: 10px;
+    width: 400px;
+}
+
+
+
+#s2 h1{
+    text-align: center;
+    margin-top:20px;
+    margin-bottom: 120px;
+}
+
+#s2 img{
+    display: flex;
+    margin: auto;
+    width: 400px;
+}
+
+#s2 .row .desc{  
+  padding: 0px 100px;
+  width: 100%;
+  margin:auto;
+  margin:20px 0px ;
+}
+
+
+#s2{
+    width: 100%;
+    height: 600px;
+    background-color:#ffffff ;
+    margin-bottom: 30px;
+    margin-bottom: 1000px;
+    display: block;
+    
+    
+}
+
+
+
+#s3{
+    width: 100%;
+    height: 800px;
+    background-color:#019541;
+    
+    
+ 
+}
+
+#s3 h1{
+    font-family: 'League Spartan', sans-serif;
+    font-size: 50px;
+    padding-top: 30px;
+    text-align: center;
+    color: white;
+}
+
+/* CARDS */
+.cards {
+    margin-top: 70px;
+    
+}
+
+.card {
+    border-radius: 25px; /* Adjuste o valor conforme necessário */
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.446);
+}
+
+.card-img-top {
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.card-title {
+    font-weight: bold;
+    font-family: 'League Spartan', sans-serif;
+    text-align: center;
+}
+
+.card-text {
+    font-family: 'League Spartan', sans-serif;
+}
+
+.card-body {
+    text-align: center; /* Center align the content within the card body */
+}
+
+.btn-custom {
+    background-color: #019541;
+    color: white;
+    border: none;
+    text-align: center; /* Center align the text within the button */
+    display: inline-block; /* Make the button inline block for center alignment */
+}
+
+.btn-custom:hover {
+    background-color: #45a049;
+    font-family: 'League Spartan', sans-serif;
+}
+
+/* SEÇÃO 4 */
+
+#s4{
+    width: 100%;
+    height: 600px;
+    background-color:#ffffff ;
+    margin-top: 1500px;
+}
+
+#imgcard{
+    border-radius: 20px;
+}
+
+.card-body{
+    padding: 35px;
+}
+
+.card-title{
+    font-size: 25px;
+    padding-bottom: 20px;
+    color: #019541;
+}
+
+
+
+
+
+
+.col-4,.col-8{
+    
+    height: 420px;
+}
+
+
+
+/*FOOTER*//*FOOTER*//*FOOTER*//*FOOTER*//*FOOTER*//*FOOTER*//*FOOTER*/
+/*FOOTER*//*FOOTER*//*FOOTER*//*FOOTER*//*FOOTER*//*FOOTER*//*FOOTER*/
+
+footer{
+    width: 100%;
+    height: 400px;
+    margin: auto;
+
+}
+
+footer .col{
+    display: flex;
+    justify-content: center;
+    
+   
+    
+}
+footer .row{
+    display:flex;
+    height: 100%;
+    
+    
+
+}
+.col i{
+    margin: 0;
+}

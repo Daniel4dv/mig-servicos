@@ -1,0 +1,28 @@
+
+                <!-- PROJETOS INICIO -->
+        <section class="container-fluid" id="s2">
+    
+        <h1>Projetos realizados</h1>
+    
+        <div class="conatainer">
+    
+            <div class="row row-cols-3">
+    
+                <div class="col img"><img src="imagens/images.png" alt=""></div>
+                <div class="col img"><img src="imagens/images.png" alt=""></div>
+                <div class="col img"><img src="imagens/images.png" alt=""></div>
+    
+    
+            </div>
+    
+            <div class="row">
+    
+                    <div class="col desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates officia culpa aperiam deleniti illo distinctio consequatur tempora, sunt quidem error commodi debitis fuga autem eius molestiae nemo tenetur saepe tempore.</div>
+                    <div class="col desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates officia culpa aperiam deleniti illo distinctio consequatur tempora, sunt quidem error commodi debitis fuga autem eius molestiae nemo tenetur saepe tempore.</div>
+                    <div class="col desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates officia culpa aperiam deleniti illo distinctio consequatur tempora, sunt quidem error commodi debitis fuga autem eius molestiae nemo tenetur saepe tempore.</div>
+            </div>
+        </div>
+        </section>
+    
+    
+        <!-- PROJETOS FIM -->

@@ -1,0 +1,110 @@
+@media screen and (min-width:768px){
+
+
+    main{
+        position:relative;
+        top: 130px;
+    }
+   
+
+    span#burguer{
+        display: none;
+    }
+
+    menu{
+        display: block;
+        padding-top: 0px;
+        text-align: center;
+        
+    }
+
+    menu li{
+        display: inline-block;
+        width: 130px;
+        
+    }
+    menu a{
+        border: none;
+        margin: 0px 5px;
+        font-family: 'League Spartan', sans-serif;
+        border-radius: 10px 10px 0px 0px;
+        
+    }
+    header{
+        background-image: linear-gradient(to bottom,#019541,#03612c );
+        position: fixed;
+        top: 0;
+        width: 100%;
+        background-color: #333;
+        color: white;
+        text-align: center;
+        z-index: 1000; /* Garante que o cabeçalho fique acima de outros elementos */
+    }
+
+    .shortCarouse{
+        height: 400px;
+    }
+
+
+    #s1 img{
+        width: 350px;
+        display: block;
+    }
+    
+    #s1 div.col-4{
+        display: block;
+    }
+    
+    #txts1{
+        background-color: #01954129;
+        border-radius: 20px;
+        margin: auto;
+        padding: 10px;
+        width: 60%;
+        font-size: 23px;
+
+    }
+
+
+
+    #s2{
+        width: 100%;
+        height: 600px;
+        background-color:#ffffff ;
+        margin-bottom: 30px;
+        margin-bottom: 1500px;
+        display: block;
+        
+        
+    }
+
+   #s2 .img img{
+        width: 35%;
+        border-radius: 20px;
+    }
+
+    #s2 .desc p{
+        width: 50%;
+        font-size: 22px;
+        margin: auto;
+    }
+
+    #s3{
+        margin-top: 1500px;
+    }
+
+    /* CARDS */
+    #s4{
+       height: 200px;
+        margin-top: 50px;
+        background-color:#ffffff ;
+        color: white;
+        
+    }
+
+
+
+
+   
+    /* CARDS */
+}
