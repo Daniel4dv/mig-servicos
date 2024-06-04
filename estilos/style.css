@@ -15,7 +15,7 @@
 
 
 html{
-    width: 100vw;
+    width: 96vw;
     height: 100vh;
     background-color: rgb(255, 255, 255);
     position:relative;
@@ -156,12 +156,13 @@ h1{
 #s2 img{
     display: flex;
     margin: auto;
-    width: 400px;
+    width: 350px;
+   
 }
 
 #s2 .row .desc{  
   padding: 0px 10px;
-  width: 100%;
+  width: 97%;
   margin:auto;
   margin:20px 0px ;
 }
@@ -171,8 +172,7 @@ h1{
     width: 100%;
     height: 600px;
     background-color:#ffffff ;
-    
-    margin-bottom: 1000px;
+    margin-bottom: 1100px;
     display: block;
     
     
@@ -280,15 +280,26 @@ h1{
 /*FOOTER*//*FOOTER*//*FOOTER*//*FOOTER*//*FOOTER*//*FOOTER*//*FOOTER*/
 
 footer{
-    width: 100%;
+    width: 10%;
     height: 400px;
     margin: auto;
+    
+    
 
+}
+footer i{
+    font-size: 25px;
+}
+
+footer #opc{
+    display: none;
+    
 }
 
 footer .col{
     display: flex;
     justify-content: center;
+   
     
    
     
